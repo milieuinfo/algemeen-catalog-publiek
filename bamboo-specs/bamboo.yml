@@ -2,8 +2,8 @@
 version: 2
 plan:
   project-key: CODELIJST
-  key: ALGEMEEN
-  name: algemeen-conceptschemes-publiek
+  key: ALGEMEENCATALOG
+  name: algemeen-catalog-publiek
 
 triggers:
   - polling: 130
@@ -69,7 +69,7 @@ Release:
 ---
 version: 2
 plan:
-  key: CODELIJST-ALGEMEEN
+  key: CODELIJST-ALGEMEENCATALOG
 
 plan-permissions:
   - groups:
