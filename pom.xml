@@ -38,6 +38,7 @@
                 <filter>
                   <artifact>*:*</artifact>
                   <includes>
+                    <include>be/vlaanderen/omgeving/data/id/catalog/**</include>
                     <include>be/vlaanderen/omgeving/data/id/dataset/**</include>
                   </includes>
                   <excludes>
@@ -67,39 +68,14 @@
   <dependencies>
      <dependency>
         <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
-        <artifactId>codelijst-bioindicator</artifactId>
-        <version>1.0.1</version>
+        <artifactId>codelijst</artifactId>
+        <version>1.0.0</version>
       </dependency>
-      <dependency>
-        <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
-        <artifactId>codelijst-chemische_stof</artifactId>
-        <version>1.0.1</version>
-      </dependency>
-      <dependency>
-        <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
-        <artifactId>codelijst-emissie</artifactId>
-        <version>1.0.2</version>
-      </dependency>
-      <dependency>
-        <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
-        <artifactId>codelijst-fysico-chemische-eigenschap</artifactId>
-        <version>1.0.2</version>
-      </dependency>
-      <dependency>
-        <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
-        <artifactId>codelijst-matrix</artifactId>
-        <version>1.0.2</version>
-      </dependency>
-      <dependency>
-        <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
-        <artifactId>codelijst-observatieprocedure</artifactId>
-        <version>1.0.2</version>
-      </dependency>
-      <dependency>
-        <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
-        <artifactId>codelijst-sommatie_stoffen</artifactId>
-        <version>1.0.2</version>
-      </dependency>
+    <dependency>
+      <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
+      <artifactId>algemeen-conceptschemes-publiek</artifactId>
+      <version>1.0.3</version>
+    </dependency>
   </dependencies>
 </project>
 
