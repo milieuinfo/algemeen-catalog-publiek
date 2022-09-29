@@ -80,11 +80,11 @@
   }, {
     "@id" : "omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst",
     "@type" : "spdx:Package",
-    "downloadLocation" : "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst/1.0.1/codelijst-1.0.1.jar",
-    "packageFileName" : "codelijst-1.0.1.jar",
+    "downloadLocation" : "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst/1.0.2/codelijst-1.0.2.jar",
+    "packageFileName" : "codelijst-1.0.2.jar",
     "packageName" : "be.vlaanderen.omgeving.data.id.graph.codelijst",
     "relationshipType_packageOf" : "omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek",
-    "versionInfo" : "1.0.1",
+    "versionInfo" : "1.0.2",
     "label" : {
       "@language" : "nl",
       "@value" : "Package codelijst"

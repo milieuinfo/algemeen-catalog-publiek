@@ -44,12 +44,12 @@
 omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst
         a                      spdx:Package ;
         rdfs:label             "Package codelijst"@nl ;
-        spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst/1.0.1/codelijst-1.0.1.jar"^^xsd:anyURI ;
-        spdx:packageFileName   "codelijst-1.0.1.jar" ;
+        spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst/1.0.2/codelijst-1.0.2.jar"^^xsd:anyURI ;
+        spdx:packageFileName   "codelijst-1.0.2.jar" ;
         spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.codelijst" ;
         spdx:relationshipType_packageOf
                 omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek ;
-        spdx:versionInfo       "1.0.1" .
+        spdx:versionInfo       "1.0.2" .
 
 omg_named_graph:algemeen-catalog-publiek
         a                   sd:NamedGraph ;
