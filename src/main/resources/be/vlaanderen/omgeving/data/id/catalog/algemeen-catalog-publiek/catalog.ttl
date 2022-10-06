@@ -113,7 +113,7 @@ omg_named_graph:algemeen-conceptschemes-publiek
 omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek
         a                      spdx:Package ;
         rdfs:label             "Package algemeen-catalog-publiek"@nl ;
-        spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-catalog-publiek/1.0.5/algemeen-catalog-publiek-1.0.5.jar"^^xsd:anyURI ;
-        spdx:packageFileName   "algemeen-catalog-publiek-1.0.5.jar" ;
+        spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-catalog-publiek/1.0.6/algemeen-catalog-publiek-1.0.6.jar"^^xsd:anyURI ;
+        spdx:packageFileName   "algemeen-catalog-publiek-1.0.6.jar" ;
         spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek" ;
-        spdx:versionInfo       "1.0.5" .
+        spdx:versionInfo       "1.0.6" .
