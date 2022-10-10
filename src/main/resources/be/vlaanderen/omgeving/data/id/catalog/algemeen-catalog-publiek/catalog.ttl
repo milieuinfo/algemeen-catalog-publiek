@@ -44,12 +44,12 @@
 omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst
         a                      spdx:Package ;
         rdfs:label             "Package codelijst"@nl ;
-        spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst/1.0.6/codelijst-1.0.6.jar"^^xsd:anyURI ;
-        spdx:packageFileName   "codelijst-1.0.6.jar" ;
+        spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst/1.0.7/codelijst-1.0.7.jar"^^xsd:anyURI ;
+        spdx:packageFileName   "codelijst-1.0.7.jar" ;
         spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.codelijst" ;
         spdx:relationshipType_packageOf
                 omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek ;
-        spdx:versionInfo       "1.0.6" .
+        spdx:versionInfo       "1.0.7" .
 
 omg_named_graph:algemeen-catalog-publiek
         a                   sd:NamedGraph ;
@@ -95,12 +95,12 @@ omg_dataservice:sparqlendpoint
 omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek
         a                      spdx:Package ;
         rdfs:label             "Package algemeen-conceptschemes-publiek"@nl ;
-        spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-conceptschemes-publiek/1.0.8/algemeen-conceptschemes-publiek-1.0.8.jar"^^xsd:anyURI ;
-        spdx:packageFileName   "algemeen-conceptschemes-publiek-1.0.8.jar" ;
+        spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-conceptschemes-publiek/1.0.9/algemeen-conceptschemes-publiek-1.0.9.jar"^^xsd:anyURI ;
+        spdx:packageFileName   "algemeen-conceptschemes-publiek-1.0.9.jar" ;
         spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek" ;
         spdx:relationshipType_packageOf
                 omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek ;
-        spdx:versionInfo       "1.0.8" .
+        spdx:versionInfo       "1.0.9" .
 
 omg_named_graph:algemeen-conceptschemes-publiek
         a                   sd:NamedGraph ;
