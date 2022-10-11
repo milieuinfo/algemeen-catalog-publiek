@@ -57,10 +57,10 @@
   }, {
     "@id" : "omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek",
     "@type" : "spdx:Package",
-    "downloadLocation" : "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-catalog-publiek/1.0.7/algemeen-catalog-publiek-1.0.7.jar",
-    "packageFileName" : "algemeen-catalog-publiek-1.0.7.jar",
+    "downloadLocation" : "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-catalog-publiek/1.0.8/algemeen-catalog-publiek-1.0.8.jar",
+    "packageFileName" : "algemeen-catalog-publiek-1.0.8.jar",
     "packageName" : "be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek",
-    "versionInfo" : "1.0.7",
+    "versionInfo" : "1.0.8",
     "label" : {
       "@language" : "nl",
       "@value" : "Package algemeen-catalog-publiek"
@@ -68,11 +68,11 @@
   }, {
     "@id" : "omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek",
     "@type" : "spdx:Package",
-    "downloadLocation" : "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-conceptschemes-publiek/1.0.10/algemeen-conceptschemes-publiek-1.0.10.jar",
-    "packageFileName" : "algemeen-conceptschemes-publiek-1.0.10.jar",
+    "downloadLocation" : "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-conceptschemes-publiek/1.0.11/algemeen-conceptschemes-publiek-1.0.11.jar",
+    "packageFileName" : "algemeen-conceptschemes-publiek-1.0.11.jar",
     "packageName" : "be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek",
     "relationshipType_packageOf" : "omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek",
-    "versionInfo" : "1.0.10",
+    "versionInfo" : "1.0.11",
     "label" : {
       "@language" : "nl",
       "@value" : "Package algemeen-conceptschemes-publiek"
@@ -80,11 +80,11 @@
   }, {
     "@id" : "omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst",
     "@type" : "spdx:Package",
-    "downloadLocation" : "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst/1.0.8/codelijst-1.0.8.jar",
-    "packageFileName" : "codelijst-1.0.8.jar",
+    "downloadLocation" : "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst/1.0.9/codelijst-1.0.9.jar",
+    "packageFileName" : "codelijst-1.0.9.jar",
     "packageName" : "be.vlaanderen.omgeving.data.id.graph.codelijst",
     "relationshipType_packageOf" : "omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek",
-    "versionInfo" : "1.0.8",
+    "versionInfo" : "1.0.9",
     "label" : {
       "@language" : "nl",
       "@value" : "Package codelijst"
