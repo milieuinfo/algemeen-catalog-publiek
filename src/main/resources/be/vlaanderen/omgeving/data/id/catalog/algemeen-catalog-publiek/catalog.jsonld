@@ -163,32 +163,35 @@
         },
         {
             "@id": "omg_dataservice:sparqlendpoint",
-            "dcat:contactPoint": {
-                "@id": "omg_id:vcard/helpdesk"
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Sparql endpoint van data.omgeving.vlaanderen.be"
             },
             "dcterms:title": {
                 "@language": "nl",
                 "@value": "Sparql endpoint op de datasets binnen data.omgeving.vlaanderen.be domein"
             },
+            "@type": "dcat:DataService",
+            "dcat:endpointDescription": {
+                "@id": "omg_id:service/sparqlservice"
+            },
             "dcterms:publisher": {
                 "@id": "ovo:OVO003323"
             },
-            "dcterms:license": {
-                "@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
-            },
-            "dcterms:identifier": {
-                "@id": "omg_dataservice:sparqlendpoint"
-            },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.dataservice.sparqlendpoint",
             "dcterms:description": {
                 "@language": "nl",
                 "@value": "Sparql endpoint api op de datasets gepubliceerd onder het domein data.omgeving.vlaanderen.be."
             },
-            "dc:identifier": "be.vlaanderen.omgeving.data.id.dataservice.sparqlendpoint",
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Sparql endpoint van data.omgeving.vlaanderen.be"
+            "dcat:contactPoint": {
+                "@id": "omg_id:vcard/helpdesk"
             },
-            "@type": "dcat:DataService"
+            "dcterms:identifier": {
+                "@id": "omg_dataservice:sparqlendpoint"
+            },
+            "dcterms:license": {
+                "@id": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0"
+            }
         },
         {
             "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek",

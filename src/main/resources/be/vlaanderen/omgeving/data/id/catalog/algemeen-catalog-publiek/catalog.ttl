@@ -82,15 +82,16 @@ omg_catalog:codelijst
         sd:namedGraph  omg_named_graph:algemeen-conceptschemes-publiek , omg_named_graph:algemeen-catalog-publiek .
 
 omg_dataservice:sparqlendpoint
-        rdf:type             dcat:DataService ;
-        rdfs:label           "Sparql endpoint van data.omgeving.vlaanderen.be"@nl ;
-        dc:identifier        "be.vlaanderen.omgeving.data.id.dataservice.sparqlendpoint" ;
-        dcterms:description  "Sparql endpoint api op de datasets gepubliceerd onder het domein data.omgeving.vlaanderen.be."@nl ;
-        dcterms:identifier   omg_dataservice:sparqlendpoint ;
-        dcterms:license      <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0> ;
-        dcterms:publisher    ovo:OVO003323 ;
-        dcterms:title        "Sparql endpoint op de datasets binnen data.omgeving.vlaanderen.be domein"@nl ;
-        dcat:contactPoint    omg_vcard:helpdesk .
+        rdf:type                  dcat:DataService ;
+        rdfs:label                "Sparql endpoint van data.omgeving.vlaanderen.be"@nl ;
+        dc:identifier             "be.vlaanderen.omgeving.data.id.dataservice.sparqlendpoint" ;
+        dcterms:description       "Sparql endpoint api op de datasets gepubliceerd onder het domein data.omgeving.vlaanderen.be."@nl ;
+        dcterms:identifier        omg_dataservice:sparqlendpoint ;
+        dcterms:license           <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0> ;
+        dcterms:publisher         ovo:OVO003323 ;
+        dcterms:title             "Sparql endpoint op de datasets binnen data.omgeving.vlaanderen.be domein"@nl ;
+        dcat:contactPoint         omg_vcard:helpdesk ;
+        dcat:endpointDescription  omg_service:sparqlservice .
 
 omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek
         rdf:type               spdx:Package ;
