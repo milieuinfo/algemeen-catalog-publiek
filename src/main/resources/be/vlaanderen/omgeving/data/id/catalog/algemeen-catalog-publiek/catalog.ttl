@@ -41,16 +41,6 @@
 @prefix void:                <http://rdfs.org/ns/void#> .
 @prefix xsd:                 <http://www.w3.org/2001/XMLSchema#> .
 
-omg_package:be.vlaanderen.omgeving.data.id.graph.codelijst
-        rdf:type               spdx:Package ;
-        rdfs:label             "Package codelijst"@nl ;
-        spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst/1.0.12/codelijst-1.0.12.jar"^^xsd:anyURI ;
-        spdx:packageFileName   "codelijst-1.0.12.jar" ;
-        spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.codelijst" ;
-        spdx:relationshipType_packageOf
-                omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek ;
-        spdx:versionInfo       "1.0.12" .
-
 omg_named_graph:algemeen-catalog-publiek
         rdf:type            sd:NamedGraph ;
         rdfs:label          "Graph algemeen-catalog-publiek"@nl ;
@@ -58,6 +48,16 @@ omg_named_graph:algemeen-catalog-publiek
         dcterms:identifier  omg_named_graph:algemeen-catalog-publiek ;
         dcterms:source      omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek ;
         sd:name             omg_graph:algemeen-catalog-publiek .
+
+omg_package:be.vlaanderen.omgeving.data.id.graph.codelijsten-catalogus
+        rdf:type               spdx:Package ;
+        rdfs:label             "Package codelijsten-catalogus"@nl ;
+        spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijsten-catalogus/1.0.0/codelijsten-catalogus-1.0.0.jar"^^xsd:anyURI ;
+        spdx:packageFileName   "codelijsten-catalogus-1.0.0.jar" ;
+        spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.codelijsten-catalogus" ;
+        spdx:relationshipType_packageOf
+                omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek ;
+        spdx:versionInfo       "1.0.0" .
 
 omg_service:sparqlservice
         rdf:type              sd:Service ;
@@ -96,12 +96,12 @@ omg_dataservice:sparqlendpoint
 omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek
         rdf:type               spdx:Package ;
         rdfs:label             "Package algemeen-conceptschemes-publiek"@nl ;
-        spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-conceptschemes-publiek/1.0.14/algemeen-conceptschemes-publiek-1.0.14.jar"^^xsd:anyURI ;
-        spdx:packageFileName   "algemeen-conceptschemes-publiek-1.0.14.jar" ;
+        spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-conceptschemes-publiek/1.0.15/algemeen-conceptschemes-publiek-1.0.15.jar"^^xsd:anyURI ;
+        spdx:packageFileName   "algemeen-conceptschemes-publiek-1.0.15.jar" ;
         spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek" ;
         spdx:relationshipType_packageOf
                 omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek ;
-        spdx:versionInfo       "1.0.14" .
+        spdx:versionInfo       "1.0.15" .
 
 omg_named_graph:algemeen-conceptschemes-publiek
         rdf:type            sd:NamedGraph ;

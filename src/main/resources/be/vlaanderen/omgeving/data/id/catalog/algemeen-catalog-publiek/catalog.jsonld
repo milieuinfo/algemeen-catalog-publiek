@@ -1,22 +1,22 @@
 {
     "@graph": [
         {
-            "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijst",
-            "spdx:versionInfo": "1.0.12",
-            "spdx:relationshipType_packageOf": {
+            "@id": "omg_id:namedgraph/algemeen-catalog-publiek",
+            "sd:name": {
+                "@id": "omg_graph:algemeen-catalog-publiek"
+            },
+            "dcterms:source": {
                 "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek"
             },
-            "spdx:packageName": "be.vlaanderen.omgeving.data.id.graph.codelijst",
-            "spdx:packageFileName": "codelijst-1.0.12.jar",
-            "spdx:downloadLocation": {
-                "@value": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijst/1.0.12/codelijst-1.0.12.jar",
-                "@type": "xsd:anyURI"
+            "dcterms:identifier": {
+                "@id": "omg_id:namedgraph/algemeen-catalog-publiek"
             },
+            "dc:identifier": "be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek",
             "rdfs:label": {
                 "@language": "nl",
-                "@value": "Package codelijst"
+                "@value": "Graph algemeen-catalog-publiek"
             },
-            "@type": "spdx:Package"
+            "@type": "sd:NamedGraph"
         },
         {
             "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek",
@@ -34,22 +34,22 @@
             "@type": "spdx:Package"
         },
         {
-            "@id": "omg_id:namedgraph/algemeen-catalog-publiek",
-            "sd:name": {
-                "@id": "omg_graph:algemeen-catalog-publiek"
-            },
-            "dcterms:source": {
+            "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijsten-catalogus",
+            "spdx:versionInfo": "1.0.0",
+            "spdx:relationshipType_packageOf": {
                 "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek"
             },
-            "dcterms:identifier": {
-                "@id": "omg_id:namedgraph/algemeen-catalog-publiek"
+            "spdx:packageName": "be.vlaanderen.omgeving.data.id.graph.codelijsten-catalogus",
+            "spdx:packageFileName": "codelijsten-catalogus-1.0.0.jar",
+            "spdx:downloadLocation": {
+                "@value": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijsten-catalogus/1.0.0/codelijsten-catalogus-1.0.0.jar",
+                "@type": "xsd:anyURI"
             },
-            "dc:identifier": "be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek",
             "rdfs:label": {
                 "@language": "nl",
-                "@value": "Graph algemeen-catalog-publiek"
+                "@value": "Package codelijsten-catalogus"
             },
-            "@type": "sd:NamedGraph"
+            "@type": "spdx:Package"
         },
         {
             "@id": "omg_id:service/sparqlservice",
@@ -195,14 +195,14 @@
         },
         {
             "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek",
-            "spdx:versionInfo": "1.0.14",
+            "spdx:versionInfo": "1.0.15",
             "spdx:relationshipType_packageOf": {
                 "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek"
             },
             "spdx:packageName": "be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek",
-            "spdx:packageFileName": "algemeen-conceptschemes-publiek-1.0.14.jar",
+            "spdx:packageFileName": "algemeen-conceptschemes-publiek-1.0.15.jar",
             "spdx:downloadLocation": {
-                "@value": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-conceptschemes-publiek/1.0.14/algemeen-conceptschemes-publiek-1.0.14.jar",
+                "@value": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-conceptschemes-publiek/1.0.15/algemeen-conceptschemes-publiek-1.0.15.jar",
                 "@type": "xsd:anyURI"
             },
             "rdfs:label": {

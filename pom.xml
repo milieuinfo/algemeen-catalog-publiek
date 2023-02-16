@@ -67,14 +67,14 @@
   </build>
   <dependencies>
      <dependency>
-        <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
-        <artifactId>codelijst</artifactId>
-        <version>1.0.12</version>
-      </dependency>
+       <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
+       <artifactId>codelijsten-catalogus</artifactId>
+       <version>1.0.0</version>
+    </dependency>
     <dependency>
       <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
       <artifactId>algemeen-conceptschemes-publiek</artifactId>
-      <version>1.0.14</version>
+      <version>1.0.15</version>
     </dependency>
   </dependencies>
 </project>
