@@ -34,6 +34,24 @@
             "@type": "spdx:Package"
         },
         {
+            "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijsten-catalogus.1.1.1",
+            "spdx:versionInfo": "1.1.1",
+            "spdx:relationshipType_packageOf": {
+                "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.1.1.0"
+            },
+            "spdx:packageName": "be.vlaanderen.omgeving.data.id.graph.codelijsten-catalogus",
+            "spdx:packageFileName": "codelijsten-catalogus-1.1.1.jar",
+            "spdx:downloadLocation": {
+                "@value": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijsten-catalogus/1.1.1/codelijsten-catalogus-1.1.1.jar",
+                "@type": "xsd:anyURI"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Package codelijsten-catalogus"
+            },
+            "@type": "spdx:Package"
+        },
+        {
             "@id": "omg_id:service/sparqlservice",
             "sd:availableGraphs": {
                 "@id": "omg_graphcollection:sparqlservice"
@@ -116,7 +134,7 @@
                 "@id": "omg_graph:algemeen-conceptschemes-publiek"
             },
             "dcterms:source": {
-                "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek.1.1.0-SNAPSHOT"
+                "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek.1.0.16"
             },
             "dcterms:identifier": {
                 "@id": "omg_id:namedgraph/dsi-data-intern"
@@ -176,38 +194,20 @@
             }
         },
         {
-            "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek.1.1.0-SNAPSHOT",
-            "spdx:versionInfo": "1.1.0-SNAPSHOT",
+            "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek.1.0.16",
+            "spdx:versionInfo": "1.0.16",
             "spdx:relationshipType_packageOf": {
                 "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.1.1.0"
             },
             "spdx:packageName": "be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek",
-            "spdx:packageFileName": "algemeen-conceptschemes-publiek-1.1.0-SNAPSHOT.jar",
+            "spdx:packageFileName": "algemeen-conceptschemes-publiek-1.0.16.jar",
             "spdx:downloadLocation": {
-                "@value": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-conceptschemes-publiek/1.1.0-SNAPSHOT/algemeen-conceptschemes-publiek-1.1.0-SNAPSHOT.jar",
+                "@value": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-conceptschemes-publiek/1.0.16/algemeen-conceptschemes-publiek-1.0.16.jar",
                 "@type": "xsd:anyURI"
             },
             "rdfs:label": {
                 "@language": "nl",
                 "@value": "Package algemeen-conceptschemes-publiek"
-            },
-            "@type": "spdx:Package"
-        },
-        {
-            "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijsten-catalogus.1.1.0",
-            "spdx:versionInfo": "1.1.0",
-            "spdx:relationshipType_packageOf": {
-                "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.1.1.0"
-            },
-            "spdx:packageName": "be.vlaanderen.omgeving.data.id.graph.codelijsten-catalogus",
-            "spdx:packageFileName": "codelijsten-catalogus-1.1.0.jar",
-            "spdx:downloadLocation": {
-                "@value": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijsten-catalogus/1.1.0/codelijsten-catalogus-1.1.0.jar",
-                "@type": "xsd:anyURI"
-            },
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Package codelijsten-catalogus"
             },
             "@type": "spdx:Package"
         }
