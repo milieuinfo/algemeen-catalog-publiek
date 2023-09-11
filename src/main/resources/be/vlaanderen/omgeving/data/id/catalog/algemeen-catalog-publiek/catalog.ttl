@@ -41,80 +41,80 @@
 @prefix void:                <http://rdfs.org/ns/void#> .
 @prefix xsd:                 <http://www.w3.org/2001/XMLSchema#> .
 
-omg_named_graph:algemeen-catalog-publiek
-        rdf:type            sd:NamedGraph ;
-        rdfs:label          "Graph algemeen-catalog-publiek"@nl ;
-        dc:identifier       "be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek" ;
-        dcterms:identifier  omg_named_graph:algemeen-catalog-publiek ;
-        dcterms:source      omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.1.1 ;
-        sd:name             omg_graph:algemeen-catalog-publiek .
-
-omg_service:sparqlservice
-        rdf:type              sd:Service ;
-        rdfs:comment          "Een beschrijving, met de verschillende kenmerken, van de sparql service."@nl ;
-        rdfs:label            "Sparql service conform SPARQL 1.1 Protocol."@nl ;
-        sd:availableGraphs    omg_graphcollection:sparqlservice ;
-        sd:defaultDataset     omg_graphcollection:sparqlservice ;
-        sd:endpoint           <https://data.omgeving.vlaanderen.be/sparql> ;
-        sd:feature            sd:UnionDefaultGraph , sd:DereferencesURIs ;
-        sd:resultFormat       formats:SPARQL_Results_JSON , formats:Turtle , formats:SPARQL_Results_XML , formats:SPARQL_Results_CSV , formats:N3 , formats:N-Triples , formats:RDF_XML ;
-        sd:supportedLanguage  sd:SPARQL10Query ;
-        sd:url                <https://data.omgeving.vlaanderen.be/sparql> .
-
-omg_package:be.vlaanderen.omgeving.data.id.graph.codelijsten-catalogus.2.1.1
-        rdf:type               spdx:Package ;
-        rdfs:label             "Package codelijsten-catalogus"@nl ;
-        spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijsten-catalogus/2.1.1/codelijsten-catalogus-2.1.1.jar"^^xsd:anyURI ;
-        spdx:packageFileName   "codelijsten-catalogus-2.1.1.jar" ;
-        spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.codelijsten-catalogus" ;
-        spdx:relationshipType_packageOf
-                omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.1.1 ;
-        spdx:versionInfo       "2.1.1" .
-
-omg_graphcollection:sparqlservice
-        rdf:type       sd:GraphCollection , sd:Dataset ;
-        rdfs:label     "De graphen die gebruikt kunnen worden in de constructie van een dataset via SPARQL Protocol."@nl ;
-        sd:namedGraph  omg_named_graph:algemeen-catalog-publiek , omg_named_graph:algemeen-conceptschemes-publiek .
-
-omg_catalog:codelijst
-        rdf:type       dcat:Catalog ;
-        dcat:service   omg_dataservice:sparqlendpoint ;
-        sd:namedGraph  omg_named_graph:algemeen-conceptschemes-publiek , omg_named_graph:algemeen-catalog-publiek .
-
-omg_dataservice:sparqlendpoint
-        rdf:type                  dcat:DataService ;
-        rdfs:label                "Sparql endpoint van data.omgeving.vlaanderen.be"@nl ;
-        dc:identifier             "be.vlaanderen.omgeving.data.id.dataservice.sparqlendpoint" ;
-        dcterms:description       "Sparql endpoint api op de datasets gepubliceerd onder het domein data.omgeving.vlaanderen.be."@nl ;
-        dcterms:identifier        omg_dataservice:sparqlendpoint ;
-        dcterms:license           <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0> ;
-        dcterms:publisher         ovo:OVO003323 ;
-        dcterms:title             "Sparql endpoint op de datasets binnen data.omgeving.vlaanderen.be domein"@nl ;
-        dcat:contactPoint         omg_vcard:helpdesk ;
-        dcat:endpointDescription  omg_service:sparqlservice .
-
-omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek.2.1.1
-        rdf:type               spdx:Package ;
-        rdfs:label             "Package algemeen-conceptschemes-publiek"@nl ;
-        spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-conceptschemes-publiek/2.1.1/algemeen-conceptschemes-publiek-2.1.1.jar"^^xsd:anyURI ;
-        spdx:packageFileName   "algemeen-conceptschemes-publiek-2.1.1.jar" ;
-        spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek" ;
-        spdx:relationshipType_packageOf
-                omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.1.1 ;
+omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.1.1
+        rdf:type               spdx:Package;
+        rdfs:label             "Package algemeen-catalog-publiek"@nl;
+        spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-catalog-publiek/2.1.1/algemeen-catalog-publiek-2.1.1.jar"^^xsd:anyURI;
+        spdx:packageFileName   "algemeen-catalog-publiek-2.1.1.jar";
+        spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek";
         spdx:versionInfo       "2.1.1" .
 
 omg_named_graph:algemeen-conceptschemes-publiek
-        rdf:type            sd:NamedGraph ;
-        rdfs:label          "Graph algemeen-conceptschemes-publiek"@nl ;
-        dc:identifier       "be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek" ;
-        dcterms:identifier  omg_named_graph:dsi-data-intern ;
-        dcterms:source      omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek.2.1.1 ;
+        rdf:type            sd:NamedGraph;
+        rdfs:label          "Graph algemeen-conceptschemes-publiek"@nl;
+        dc:identifier       "be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek";
+        dcterms:identifier  omg_named_graph:dsi-data-intern;
+        dcterms:source      omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek.2.2.0;
         sd:name             omg_graph:algemeen-conceptschemes-publiek .
 
-omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.1.1
-        rdf:type               spdx:Package ;
-        rdfs:label             "Package algemeen-catalog-publiek"@nl ;
-        spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-catalog-publiek/2.1.1/algemeen-catalog-publiek-2.1.1.jar"^^xsd:anyURI ;
-        spdx:packageFileName   "algemeen-catalog-publiek-2.1.1.jar" ;
-        spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek" ;
-        spdx:versionInfo       "2.1.1" .
+omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek.2.2.0
+        rdf:type               spdx:Package;
+        rdfs:label             "Package algemeen-conceptschemes-publiek"@nl;
+        spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-conceptschemes-publiek/2.2.0/algemeen-conceptschemes-publiek-2.2.0.jar"^^xsd:anyURI;
+        spdx:packageFileName   "algemeen-conceptschemes-publiek-2.2.0.jar";
+        spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek";
+        spdx:relationshipType_packageOf
+                omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.1.1;
+        spdx:versionInfo       "2.2.0" .
+
+omg_package:be.vlaanderen.omgeving.data.id.graph.codelijsten-catalogus.2.2.0
+        rdf:type               spdx:Package;
+        rdfs:label             "Package codelijsten-catalogus"@nl;
+        spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/codelijsten-catalogus/2.2.0/codelijsten-catalogus-2.2.0.jar"^^xsd:anyURI;
+        spdx:packageFileName   "codelijsten-catalogus-2.2.0.jar";
+        spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.codelijsten-catalogus";
+        spdx:relationshipType_packageOf
+                omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.1.1;
+        spdx:versionInfo       "2.2.0" .
+
+omg_dataservice:sparqlendpoint
+        rdf:type                  dcat:DataService;
+        rdfs:label                "Sparql endpoint van data.omgeving.vlaanderen.be"@nl;
+        dc:identifier             "be.vlaanderen.omgeving.data.id.dataservice.sparqlendpoint";
+        dcterms:description       "Sparql endpoint api op de datasets gepubliceerd onder het domein data.omgeving.vlaanderen.be."@nl;
+        dcterms:identifier        omg_dataservice:sparqlendpoint;
+        dcterms:license           <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0>;
+        dcterms:publisher         ovo:OVO003323;
+        dcterms:title             "Sparql endpoint op de datasets binnen data.omgeving.vlaanderen.be domein"@nl;
+        dcat:contactPoint         omg_vcard:helpdesk;
+        dcat:endpointDescription  omg_service:sparqlservice .
+
+omg_catalog:codelijst
+        rdf:type       dcat:Catalog;
+        dcat:service   omg_dataservice:sparqlendpoint;
+        sd:namedGraph  omg_named_graph:algemeen-conceptschemes-publiek , omg_named_graph:algemeen-catalog-publiek .
+
+omg_graphcollection:sparqlservice
+        rdf:type       sd:GraphCollection , sd:Dataset;
+        rdfs:label     "De graphen die gebruikt kunnen worden in de constructie van een dataset via SPARQL Protocol."@nl;
+        sd:namedGraph  omg_named_graph:algemeen-catalog-publiek , omg_named_graph:algemeen-conceptschemes-publiek .
+
+omg_service:sparqlservice
+        rdf:type              sd:Service;
+        rdfs:comment          "Een beschrijving, met de verschillende kenmerken, van de sparql service."@nl;
+        rdfs:label            "Sparql service conform SPARQL 1.1 Protocol."@nl;
+        sd:availableGraphs    omg_graphcollection:sparqlservice;
+        sd:defaultDataset     omg_graphcollection:sparqlservice;
+        sd:endpoint           <https://data.omgeving.vlaanderen.be/sparql>;
+        sd:feature            sd:DereferencesURIs , sd:UnionDefaultGraph;
+        sd:resultFormat       formats:RDF_XML , formats:N-Triples , formats:N3 , formats:SPARQL_Results_CSV , formats:SPARQL_Results_XML , formats:Turtle , formats:SPARQL_Results_JSON;
+        sd:supportedLanguage  sd:SPARQL10Query;
+        sd:url                <https://data.omgeving.vlaanderen.be/sparql> .
+
+omg_named_graph:algemeen-catalog-publiek
+        rdf:type            sd:NamedGraph;
+        rdfs:label          "Graph algemeen-catalog-publiek"@nl;
+        dc:identifier       "be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek";
+        dcterms:identifier  omg_named_graph:algemeen-catalog-publiek;
+        dcterms:source      omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.1.1;
+        sd:name             omg_graph:algemeen-catalog-publiek .
