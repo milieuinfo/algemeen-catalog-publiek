@@ -41,14 +41,6 @@
 @prefix void:                <http://rdfs.org/ns/void#> .
 @prefix xsd:                 <http://www.w3.org/2001/XMLSchema#> .
 
-omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.1.1
-        rdf:type               spdx:Package;
-        rdfs:label             "Package algemeen-catalog-publiek"@nl;
-        spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-catalog-publiek/2.1.1/algemeen-catalog-publiek-2.1.1.jar"^^xsd:anyURI;
-        spdx:packageFileName   "algemeen-catalog-publiek-2.1.1.jar";
-        spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek";
-        spdx:versionInfo       "2.1.1" .
-
 omg_named_graph:algemeen-conceptschemes-publiek
         rdf:type            sd:NamedGraph;
         rdfs:label          "Graph algemeen-conceptschemes-publiek"@nl;
@@ -64,7 +56,7 @@ omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek
         spdx:packageFileName   "algemeen-conceptschemes-publiek-2.2.0.jar";
         spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek";
         spdx:relationshipType_packageOf
-                omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.1.1;
+                omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.2.0;
         spdx:versionInfo       "2.2.0" .
 
 omg_package:be.vlaanderen.omgeving.data.id.graph.codelijsten-catalogus.2.2.0
@@ -74,7 +66,7 @@ omg_package:be.vlaanderen.omgeving.data.id.graph.codelijsten-catalogus.2.2.0
         spdx:packageFileName   "codelijsten-catalogus-2.2.0.jar";
         spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.codelijsten-catalogus";
         spdx:relationshipType_packageOf
-                omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.1.1;
+                omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.2.0;
         spdx:versionInfo       "2.2.0" .
 
 omg_dataservice:sparqlendpoint
@@ -111,10 +103,18 @@ omg_service:sparqlservice
         sd:supportedLanguage  sd:SPARQL10Query;
         sd:url                <https://data.omgeving.vlaanderen.be/sparql> .
 
+omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.2.0
+        rdf:type               spdx:Package;
+        rdfs:label             "Package algemeen-catalog-publiek"@nl;
+        spdx:downloadLocation  "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-catalog-publiek/2.2.0/algemeen-catalog-publiek-2.2.0.jar"^^xsd:anyURI;
+        spdx:packageFileName   "algemeen-catalog-publiek-2.2.0.jar";
+        spdx:packageName       "be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek";
+        spdx:versionInfo       "2.2.0" .
+
 omg_named_graph:algemeen-catalog-publiek
         rdf:type            sd:NamedGraph;
         rdfs:label          "Graph algemeen-catalog-publiek"@nl;
         dc:identifier       "be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek";
         dcterms:identifier  omg_named_graph:algemeen-catalog-publiek;
-        dcterms:source      omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.1.1;
+        dcterms:source      omg_package:be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.2.0;
         sd:name             omg_graph:algemeen-catalog-publiek .

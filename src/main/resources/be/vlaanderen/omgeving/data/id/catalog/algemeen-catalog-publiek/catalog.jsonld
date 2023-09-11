@@ -1,25 +1,10 @@
 {
     "@graph": [
         {
-            "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.1.1",
-            "spdx:versionInfo": "2.1.1",
-            "spdx:packageName": "be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek",
-            "spdx:packageFileName": "algemeen-catalog-publiek-2.1.1.jar",
-            "spdx:downloadLocation": {
-                "@value": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-catalog-publiek/2.1.1/algemeen-catalog-publiek-2.1.1.jar",
-                "@type": "xsd:anyURI"
-            },
-            "rdfs:label": {
-                "@language": "nl",
-                "@value": "Package algemeen-catalog-publiek"
-            },
-            "@type": "spdx:Package"
-        },
-        {
             "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek.2.2.0",
             "spdx:versionInfo": "2.2.0",
             "spdx:relationshipType_packageOf": {
-                "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.1.1"
+                "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.2.0"
             },
             "spdx:packageName": "be.vlaanderen.omgeving.data.id.graph.algemeen-conceptschemes-publiek",
             "spdx:packageFileName": "algemeen-conceptschemes-publiek-2.2.0.jar",
@@ -30,6 +15,21 @@
             "rdfs:label": {
                 "@language": "nl",
                 "@value": "Package algemeen-conceptschemes-publiek"
+            },
+            "@type": "spdx:Package"
+        },
+        {
+            "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.2.0",
+            "spdx:versionInfo": "2.2.0",
+            "spdx:packageName": "be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek",
+            "spdx:packageFileName": "algemeen-catalog-publiek-2.2.0.jar",
+            "spdx:downloadLocation": {
+                "@value": "https://repo.omgeving.vlaanderen.be/artifactory/release/be/vlaanderen/omgeving/data/id/graph/algemeen-catalog-publiek/2.2.0/algemeen-catalog-publiek-2.2.0.jar",
+                "@type": "xsd:anyURI"
+            },
+            "rdfs:label": {
+                "@language": "nl",
+                "@value": "Package algemeen-catalog-publiek"
             },
             "@type": "spdx:Package"
         },
@@ -55,7 +55,7 @@
             "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.codelijsten-catalogus.2.2.0",
             "spdx:versionInfo": "2.2.0",
             "spdx:relationshipType_packageOf": {
-                "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.1.1"
+                "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.2.0"
             },
             "spdx:packageName": "be.vlaanderen.omgeving.data.id.graph.codelijsten-catalogus",
             "spdx:packageFileName": "codelijsten-catalogus-2.2.0.jar",
@@ -180,7 +180,7 @@
                 "@id": "omg_graph:algemeen-catalog-publiek"
             },
             "dcterms:source": {
-                "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.1.1"
+                "@id": "omg_id:package/be.vlaanderen.omgeving.data.id.graph.algemeen-catalog-publiek.2.2.0"
             },
             "dcterms:identifier": {
                 "@id": "omg_id:namedgraph/algemeen-catalog-publiek"
